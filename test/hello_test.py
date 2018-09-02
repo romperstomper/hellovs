@@ -1,7 +1,11 @@
-from hellovs import hello
+from hellovs.hello import *
 import unittest
 
-class HelloTest(unittest.TestCase):
-    def hello_pass_test(self):
-        result = hello.itsgrand()
+class TestHelloTest(unittest.TestCase):
+    def test_hello_pass_test(self):
+        #result = hello.itsgrand()
         self.assertEqual(True, True)
+
+
+if __name__ == '__namin__':
+    unittest.main()
