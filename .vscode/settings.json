@@ -1,9 +1,0 @@
-{
-    "python.pythonPath": "/usr/bin/python3.4",
-    "python.venvFolders": [
-        "envs",
-        ".pyenv",
-        ".direnv",
-        "venvs"
-    ]
-}
